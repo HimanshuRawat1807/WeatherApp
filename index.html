@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="weather-app">
+        <div class="container">
+            <h3 class="brand">the weather</h3>
+            <div>
+                <h1 class="temp">16&#176;</h1>
+                <div class="city-time">
+                    <h1 class="name">Delhi</h1>
+                    <small>
+                        <span class="time">12:00</span>
+                        <span class="date">Friday 9.10 2023</span>
+                    </small>
+                </div>
+                    <div class="weather">
+                        <img src="./weather/64x64/day/113.png" class="icon" srcset="">
+                        <span class="condition">cloudy</span>
+                    </div>
+            </div>
+        </div>
+
+        <div class="panel">
+            <form action="submit" id="locationInput">
+                <input type="text" name="" class="search" placeholder="Search Location" id="">
+                <!-- <button type="submit" class="submit"> -->
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </form>
+            <ul class="cities">
+                <li class="city">Mumbai</li>
+                <li class="city">Bangalore</li>
+                <li class="city">Kolkata</li>
+                <li class="city">Uttarakhand</li>
+            </ul>
+
+            <ul class="details">
+                <h4>Weather Details</h4>
+                <li>
+                    <span>Cloudy</span>
+                    <span class="cloud">25%</span>
+                </li>
+                <li>
+                    <span>Humidity</span>
+                    <span class="humidity">72%</span>
+                </li>
+                <li>
+                    <span>Wind</span>
+                    <span class="wind">6km/h%</span>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+    <script src="https://kit.fontawesome.com/645f01481f.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
